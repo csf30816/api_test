@@ -1,4 +1,6 @@
 var API = {};
 
-API.PROJECT_URL = 'http://projects.scratch.mit.edu/internalapi/project/';
-API.CLOUD_URL = '';
+API.PROJECT_URL = 'projects.scratch.mit.edu';
+API.CLOUD_URL = 'cloud.scratch.mit.edu';
+API.CDN_URL = 'cdn.scratch.mit.edu';
+API.CLOUD_URL.PORT = '531';
