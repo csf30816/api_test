@@ -14,8 +14,8 @@ Scratch.projectJSON = function(ID) {
   $.ajax({
     type: "GET",
     url: API.PROJECT_URL + '/internalapi/project/' + ID + "/get/",
-    success: function (responseText) {
-      return(responseText);
+    success: function(data){
+      callback(data);
     }
   })
 }
