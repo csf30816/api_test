@@ -1,9 +1,9 @@
 var API = {};
 
 var SERVER = 'https://scratch.mit.edu';
-API.PROJECT_URL = 'http://projects.scratch.mit.edu';
-API.CLOUD_URL = 'http://cloud.scratch.mit.edu';
-API.CDN_URL = 'http://cdn.scratch.mit.edu';
+API.PROJECT_URL = 'https://projects.scratch.mit.edu';
+API.CLOUD_URL = 'https://cloud.scratch.mit.edu';
+API.CDN_URL = 'https://cdn.scratch.mit.edu';
 API.CLOUD_PORT = '531';
 
 API.SESSION_FILE = '.scratchSession';
